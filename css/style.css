@@ -43,16 +43,76 @@ a:hover { color: black; }
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-gap: 40px;
-	width: 60%;
+	width: 100%;
 	margin: auto;
 }
 
-.grid div {
-	background-color: #ccc;
-	padding: 20px;
+.item_1{
+	grid-column: 1 / 2;
+	background-color: gray;
 }
+
+.item_2{
+	grid-column: 5 / 6;
+	background-color: gray;
+}
+
+
+
+@media only screen and (min-width: 300px){
+
+	main{
+		background-color:red;
+	}
+	.grid_banner {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		grid-gap: 40px;
+		width: 100%;
+		margin: auto;
+	}
+	.image_one{
+		object-fit: cover;
+		height: 100%;
+	}
+
+	.image_one img{
+		position: absolute;
+
+	}
+
+	.item_1{
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+		background-color: gray;
+	}
+
+	.item_2{
+		grid-column: 3 / 4;
+		grid-row: 1 / 2;
+		background-color: gray;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(22, 25px);
+		width: 100%;
+		margin: auto;
+	}
+
+	.item_3{
+		grid-column: 1 / 4;
+		grid-row: 1 / 15;
+		background-color: blue;
+	}				
+}
+
+@media only screen and (min-width: 1224px) {
+
 /*
 font-family: 'Mansalva', cursive;
 font-family: 'Dosis', sans-serif;
