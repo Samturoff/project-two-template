@@ -192,6 +192,9 @@ body{
 		grid-column: 1 / 13;
 		grid-row: 13 / 17;
 		background-color: teal;
+			  display: flex;
+	  justify-content: center;
+	  align-items: center;
 	}
 
 	.item_9_1{
