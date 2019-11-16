@@ -162,9 +162,7 @@ body{
 		padding-top: 30px;
 
 	}
-	.open_table{
-		z-index: 1;
-	}
+
 	.homepage_learn_more
 	{
 		background-color: white;
@@ -194,6 +192,13 @@ body{
 		grid-column: 1 / 13;
 		grid-row: 13 / 17;
 		background-color: teal;
+	}
+
+	.item_9_1{
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  background-color: red;	
 	}
 	.item_10 {
 		grid-column: 1 / 13;
