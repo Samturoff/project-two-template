@@ -31,12 +31,16 @@ a:hover { color: black; }
 	}
 	h1{
 		font-family: Paralucent, sans-serif;
-		font-size: 28pt;
+		font-size: 24pt;
+		letter-spacing: .7px;
+		line-height: 35px;
+
 	}
 
 	h2 {
-		font-size: 36px;
-	}
+		font-family: Metallophile Sp8, sans-serif;
+		font-size: 18pt;
+		}
 
 	h3 {
 		font-size: 28px;
@@ -48,7 +52,8 @@ a:hover { color: black; }
 
 	p {
 		font-family: Metallophile Sp8, sans-serif;
-		font-size: 20pt;
+		font-size: 14pt;
+		line-height: 22px
 	}
 
 	.grid_banner {
@@ -118,11 +123,25 @@ a:hover { color: black; }
 		grid-gap: 40px;
 
 	}
+body{
+  text-align: center;
+  background: #FFEBF0;
+}
 
+.container{
+  
+  .ot-dtp-picker.wide .ot-powered-by{
+    text-align: center;
+    background-position: center;
+  }
+}
 	.item_6 {
+		padding-top: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: green;
+		background-color: #E8DCDC;
 	}
 	
 	.homepage_intro_1{
@@ -135,6 +154,28 @@ a:hover { color: black; }
 
 	.homepage_intro_paragraph
 	{
+		padding-top: 15px;
+	}
+
+	.homepage_learn_more_wrapper
+	{
+		padding-top: 30px;
+
+	}
+	.open_table{
+		z-index: 1;
+	}
+	.homepage_learn_more
+	{
+		background-color: white;
+		text-align: center;
+		align-content: center;
+		margin-left: 30%;
+		margin-right: 30%;
+		padding-top: 3px;
+		padding-bottom: 4.5px;
+		border: solid;
+		border-width: 1px;
 
 	}
 	.item_7 {
