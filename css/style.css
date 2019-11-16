@@ -191,15 +191,15 @@ body{
 	.item_9 {
 		padding-top: 20%;
 		padding-bottom: 20%;
-
 		grid-column: 1 / 13;
 		grid-row: 13 / 17;
 		background-color: teal;
 	}
 
 	.item_9_1{
-		min-width: 224px;
-		min-height: 301px;
+		margin: auto;
+		width: 224px;
+		height: 301px;
 		display: block;
 		background-color: red;
 		}
