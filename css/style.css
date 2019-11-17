@@ -1,6 +1,5 @@
 /* Enter your Styles below! */
 
-
 body { 
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
@@ -29,25 +28,33 @@ a:hover { color: black; }
 	main {
 		background-color:red;
 	}
+
 	h1{
 		font-family: Paralucent, sans-serif;
 		font-size: 24pt;
 		letter-spacing: .7px;
 		line-height: 35px;
-
 	}
 
 	h2 {
 		font-family: Metallophile Sp8, sans-serif;
 		font-size: 18pt;
-		}
+	}
 
 	h3 {
 		font-size: 28px;
 	}
 
 	h4 {
-		font-size: 24px;
+		font-family: Brandon Grotesque, sans-serif;
+		font-size: 14pt;
+	}
+
+	h5{
+		font-family: Paralucent, sans-serif;
+		font-size: 14pt;
+		letter-spacing: .7px;
+		line-height: 35px;
 	}
 
 	p {
@@ -56,6 +63,12 @@ a:hover { color: black; }
 		line-height: 22px
 	}
 
+.container{
+  .ot-dtp-picker.wide .ot-powered-by{
+    text-align: center;
+    background-position: center;
+  }
+}
 	.grid_banner {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -125,13 +138,6 @@ a:hover { color: black; }
 	}
 
 
-.container{
-  
-  .ot-dtp-picker.wide .ot-powered-by{
-    text-align: center;
-    background-position: center;
-  }
-}
 	.item_6 {
 		padding-top: 40px;
 		padding-left: 40px;
@@ -210,16 +216,219 @@ a:hover { color: black; }
 		padding-top: 40px;
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(4, 100px);
+		grid-template-rows: repeat(20, 100px);
 		width: 100%;
 		margin: auto;
 		grid-gap: 40px;
 	}
 
 	.item_11 {
+		padding-top: 40px;
+		padding-right: 40px;
+		padding-left: 40px;
 		grid-column: 1 / 13;
-		grid-row: 1 / 5;
+		grid-row: 1 / 21;
 		background-color: teal;
+	}
+
+	.footer_time_main_title{
+	}		
+
+	.footer_time_title{
+		padding-top: 20px;
+	}
+
+	.footer_contact_title_title{
+		padding-top: 20px;
+	}
+
+	.footer_contact_title{
+		padding-top: 20px;
+	}
+
+	.footer_email_address{
+		float:left;
+	}
+
+	html {
+	  box-sizing: border-box;
+	}
+
+	* {
+	  box-sizing: inherit;
+	}
+
+
+	.subscribe {
+	  position: relative;	
+	  margin: auto;
+	  width: 300px;
+	  height: 30px;
+	  background: #fff;
+	}
+
+	.placeholder {
+	  position: absolute;
+	  top: 5px;
+	  left: 10px;
+	  font-size: 1.2em;
+	  color: #e9625b;
+	  pointer-events: none;
+	  transition: opacity 0.25s ease, transform 0.35s ease;
+	}
+
+	input[type="text"] {
+	  float: left;
+	  height: 100%;
+	  width: 70%;
+	  border: 0;
+	  outline: none;
+	  font-size: 1.5em;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  color: grey;
+	}
+
+	button {
+	  float: right;
+	  width: 30%;
+	  height: 100%;
+	  background: #e9625b;
+	  border: 2px solid #c6544d;
+	  padding: 0;
+	  font-size: 1.2em;
+	  color: #fff;
+	  cursor: pointer;
+	  outline: none;
+	  transition: transform 0.75s ease, background 0.35s ease;
+	  
+	  &:hover {
+	    background: #c6544d;
+	  }
+	}
+
+	.move-btn {
+	  transform: translateX(-210px);
+	}
+
+	.placeholder-active {
+	  opacity: 1 !important;
+	  transform: translateX(120px);
+	}
+
+	.more-concepts {
+	  position: absolute;
+	  left: 50%;
+	  bottom: 20px;
+	  transform: translateX(-50%);
+	  text-decoration: none;
+	  color: #fff;
+	  
+	  &:hover {
+	    text-decoration: underline;
+	  }
+	}
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+$timing        : 265ms;
+$iconColor     : beige;
+$accent        : beige;
+$grape         : beige;
+$orchid        : beige;
+
+@mixin transformScale($size: 1) {
+    transform: scale($size);
+    -ms-transform: scale($size);
+    -webkit-transform: scale($size);
+}
+
+body {
+    background-color: rgba($iconColor, 0.05);
+}
+
+.social-container {
+    width: 400px;
+    margin: 40vh auto;
+    text-align: center;
+  background-color: #85332D;
+}
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+  
+    li {
+        display: inline-block;
+        margin: 0.15em;
+        position: relative;
+        font-size: 1.2em;
+
+    }
+
+    i {
+        color: #fff;
+        position: absolute;
+        top: 21px;
+        left: 21px;
+        transition: all $timing ease-out;
+    }
+
+    a {
+        display: inline-block;
+      
+        &:before {
+            @include transformScale();
+            content: " ";
+            width: 60px;
+            height: 60px;
+            border-radius: 100%;
+            display: block;
+            background: linear-gradient(45deg, $iconColor, $accent);
+            transition: all $timing ease-out;
+        }
+        
+        &:hover:before {
+            transform: scale(0);
+            transition: all $timing ease-in;
+        }
+        
+        &:hover i {
+            @include transformScale(2.2);
+            color: $iconColor;
+            background: -webkit-linear-gradient(45deg, $iconColor, $accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all $timing ease-in;
+        }
+    }
+  
+    a.social-square {
+      
+        &:before {
+            background: linear-gradient(45deg, $grape, $orchid);
+            border-radius: 10%;
+        }
+      
+        &:hover:before {
+            transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            -webkit-transform: scale(-180deg);
+            border-radius: 100%;
+        }
+        
+        &:hover i {
+            @include transformScale(1.6);
+            color: #fff;
+            transform: scale(1.6);
+            -webkit-text-fill-color: #fff;
+        }
+    }
+}
+	.footer_links{
+		display: inline-block;
+		padding-top: 20px;
+		width: 100%;
 	}		
 /* ----------Subpage_Food---------- */
 	main {
