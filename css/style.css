@@ -123,10 +123,7 @@ a:hover { color: black; }
 		grid-gap: 40px;
 
 	}
-body{
-  text-align: center;
-  background: #FFEBF0;
-}
+
 
 .container{
   
@@ -203,10 +200,12 @@ body{
 		display: block;
 		background-color: red;
 		}
+
 	.item_10 {
 		grid-column: 1 / 13;
 		grid-row: 17 / 21;
 		background-color: teal;
+		z-index: 2;
 	}
 
 	.grid_footer {
