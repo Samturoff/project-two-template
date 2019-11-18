@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://use.typekit.net/vsw5yzb.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
 </head>
 <body>
 	<div class="grid_banner">
@@ -21,13 +22,29 @@
 			</header>
 		</div>
 		<div class="item_2">
-			<nav>
-				<ul>
-					<li><a href="C:\Users\Sam\Documents\GitHub\project-two-template\opentable.html">example link to subpage one</a></li>
-					<li><a href="#">link</a></li>
-					<li><a href="#">link</a></li>
-				</ul>
-			</nav>
+		<div class= "homepage_hamburger_transition_color">
+		<!-- partial:index.partial.html -->
+			<div class= "homepage_hamburger_placement">
+			    <div id="topNav" class="navigation">
+			      <span id="closebtn" onclick="navToggle()">
+			          <span class="line1"></span>
+			          <span class="line2"></span>
+			          <span class="line3"></span>
+			      </span>
+			    <div class="logo">
+			      <img src=""/>
+			    </div>
+				</div>
+		    </div>
+		    <ul class="menulist">
+		      <li><a class="menuitems" href="#">ABOUT</a></li>		
+		      <li><a class="menuitems" href="#">CASE STUDIES</a></li>				
+		      <li><a class="menuitems" href="#">CONTACT</a></li>
+		      <li><a class="menuitems" href="#">RESUME</a></li>
+		    </ul>	
+		    <div id="main">
+		    </div>
+		</div>
 		</div>
 		<div class="item_3">
 		</div>
@@ -50,25 +67,25 @@
 				<div class="item_7">
 					<h1 class="homepage_our_menu"> OUR MENU </h1>
 					<p class="homepage_our_menu_description"> This is a tavern for the modern ages — spacious and warm, serving Northwest-inspired American dishes </p>
-					<nav>
+					<nav class="menu_links_container">
 						<ul>
-							<li><a href="subpage-one.html"> BREAKFAST</a></li>
-							<li><a href="#"> BRUNCH</a></li>
-							<li><a href="#"> LUNCH</a></li>
-							<li><a href="#"> DINNER</a></li>
-							<li><a href="#"> DESSERTS</a></li>
+							<li><h6 class="menu_links"><a href="subpage-one.html"> BREAKFAST</a></h6></li>
+							<li><h6 class="menu_links"><a href="#"> BRUNCH</a></h6></li>
+							<li><h6 class="menu_links"><a href="#"> LUNCH</a></h6></li>
+							<li><h6 class="menu_links"><a href="#"> DINNER</a></h6></li>
+							<li><h6 class="menu_links"><a href="#"> DESSERTS</a></h6></li>
 						</ul>
 					</nav>					
 				</div>
 				<div class="item_8">
 					<h1 class="homepage_our_menu"> DRINKS </h1>
 					<p class="homepage_our_menu_description"> This is a tavern for the modern ages — spacious and warm, serving Northwest-inspired American dishes </p>
-					<nav>
+					<nav class="drink_links_container">
 						<ul>
-							<li><a href="#"> HAPPY HOUR</a></li>
-							<li><a href="#"> BAR MENU</a></li>
-							<li><a href="#"> WINE LIST</a></li>
-							<li><a href="#"> SPIRITS</a></li>
+							<li><h6 class="drink_links"><a href="#"> HAPPY HOUR</a></h6></li>
+							<li><h6 class="drink_links"><a href="#"> BAR MENU</a></h6></li>
+							<li><h6 class="drink_links"><a href="#"> WINE LIST</a></h6></li>
+							<li><h6 class="drink_links"><a href="#"> SPIRITS</a></h6></li>
 						</ul>
 					</nav>									
 				</div>
@@ -120,20 +137,23 @@
 						<a href="https://codepen.io/collection/DpgWyG" class="more-concepts" target="_blank"></a>						
 					</div>
 					<div class="social_media_buttons">
-						<div class="social-container">
-						    <ul class="social-icons">
-						        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						        <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-						    </ul>
+						<div class="container_smedia_buttons">
+						  <div class="effect aeneas">
+						    <div class="buttons">
+						      <a href="#" class="fb" title="Join us on Facebook"><i class="fa fa-facebook" style="color: #85332D" aria-hidden="true"></i></a>
+						      <a href="#" class="yelp" title="Join us on Yelp"><i class="fa fa-yelp" style="color: #85332D" aria-hidden="true"></i></a>
+						      <a href="#" class="tw" title="Join us on Twitter"><i class="fa fa-twitter" style="color: #85332D" aria-hidden="true"></i></a>
+						      <a href="#" class="insta" title="Join us on Instagram"><i class="fa fa-instagram" style="color: #85332D" aria-hidden="true"></i></a>
+						      <a href="#" class="tripadvisor" title="Join us on Tripadvisor"><i class="fa fa-tripadvisor" style="color: #85332D" aria-hidden="true"></i></a>
+						    </div>
+						  </div>
 						</div>						
 					</div>
 					<div class="footer_links">
-						<p class="footer_link_bar"><a href="#">A Kimpton Bar</a></p>
-						<p class="footer_link_hotel"><a href="#">Kimpton Hotel Monaco Portland</a></p>
-						<p class="footer_link_pp"><a href="#">Privacy Policy</a></p>
-						<p class="footer_link_cpp"><a href="#">Your CA Privacy Rights</a></p>
+						<p class="footer_links_single"><a href="#">A Kimpton Bar</a></p>
+						<p class="footer_links_single"><a href="#">Kimpton Hotel Monaco Portland</a></p>
+						<p class="footer_links_single"><a href="#">Privacy Policy</a></p>
+						<p class="footer_links_single"><a href="#">Your CA Privacy Rights</a></p>
 					</div>
 
 				</div>
