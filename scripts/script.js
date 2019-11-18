@@ -32,14 +32,13 @@ function moveBtn() {
   }, 500);
 } 
 
-/* HAMBURGER NAVIGATOR */
-
-
-// End of Your Code . Don't delete that line below!!
 });
+
+/* HAMBURGER NAVIGATOR */
 var nav = document.getElementById("topNav");
 var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
+var menulistid = document.getElementsByClassName("menulistid");
 var close = document.getElementById("closebtn");
 
 //default to measure if/else from
@@ -66,7 +65,8 @@ function navToggle() {
   menu[i].style.marginTop="100px";
   };
       document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
-  
+      document.menulistid.style.color="blue";
+
   } 
   //to open
   else if (nav.style.height <= "50px") {
