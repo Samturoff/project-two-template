@@ -38,7 +38,7 @@ function moveBtn() {
 var nav = document.getElementById("topNav");
 var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
-var menulistid = document.getElementsByClassName("menulistid");
+var menulistid = document.getElementsById("menulistid");
 var close = document.getElementById("closebtn");
 
 //default to measure if/else from
@@ -65,7 +65,7 @@ function navToggle() {
   menu[i].style.marginTop="100px";
   };
       document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
-      document.menulistid.style.color="blue";
+      menulistid.style.color="blue";
 
   } 
   //to open
@@ -77,7 +77,7 @@ function navToggle() {
   menu[i].style.opacity="1.0";
   menu[i].style.marginTop="0px";
   };
-      document.body.style.backgroundColor = "rgba(131, 51, 45, 0.9)";
+      menulistid.style.color="purple";
   }
 
 };
