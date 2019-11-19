@@ -38,8 +38,9 @@ function moveBtn() {
 var nav = document.getElementById("topNav");
 var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
-var menulistid = document.getElementsById("menulistid");
 var close = document.getElementById("closebtn");
+var hamburger_background = document.getElementById("hamburger_background_id");
+
 
 //default to measure if/else from
 nav.style.height = "50px";
@@ -64,8 +65,7 @@ function navToggle() {
   menu[i].style.opacity="0.0";
   menu[i].style.marginTop="100px";
   };
-      document.body.style.backgroundColor = "rgba(0,0,0,0.0)";
-      menulistid.style.color="blue";
+      hamburger_background.style.backgroundColor = "rgba(0,0,0,0)";
 
   } 
   //to open
@@ -77,7 +77,7 @@ function navToggle() {
   menu[i].style.opacity="1.0";
   menu[i].style.marginTop="0px";
   };
-      menulistid.style.color="purple";
+      hamburger_background.style.backgroundColor = "rgba(133,51,45,0.85)";
   }
 
 };
