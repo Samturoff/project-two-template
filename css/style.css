@@ -64,12 +64,13 @@ a:hover { color: black; }
 		line-height: 22px
 	}
 
-.container{
-  .ot-dtp-picker.wide .ot-powered-by{
-    text-align: center;
-    background-position: center;
-  }
-}
+	.container{
+	  .ot-dtp-picker.wide .ot-powered-by{
+	    text-align: center;
+	    background-position: center;
+	  }
+	}
+
 	.hamburger_background{
 		z-index: 10;
 		transition: background-color .5s;
@@ -119,6 +120,7 @@ a:hover { color: black; }
 		    float: right;
 			width: 80px;
 		}
+
 		.navigation {
 		    width: 100%;
 		    position: relative;
@@ -141,9 +143,16 @@ a:hover { color: black; }
 		    margin-left:auto;
 		    margin-right:auto;
 		}
-
+		.menu_item_container{
+			position: absolute;
+			margin-left: auto;
+			margin-right: auto;
+			left: 0;
+			right: 0;			
+		}
 		.menulist {
-			margin: 0 auto;
+			padding-top: 20px;
+			text-align:center;
 			background-color: blue;
 			width: 100%;
 			height: 600px;
@@ -186,19 +195,19 @@ a:hover { color: black; }
 		}
 
 		.menuitems {
-		    padding-top:12px;
-		    padding-bottom:12px;
+		    padding-top: 24px;
+		    padding-bottom: 12px;
 		    text-decoration: none;
 		    list-style:none; 
 		    font-family: Paralucent, sans-serif;
 		    font-size: 20pt;
 		    letter-spacing: .7px;
 		    display: inline-block;
-		    position:relative;	
-		    text-align:center;
+		    position: relative;
 		    color: #E8DCDC;
 		    opacity:0.0;
 		    transition: all .5s ease-in-out;
+
 		}
 
 		.menuitems:after {
@@ -226,7 +235,7 @@ a:hover { color: black; }
 		    z-index:100;
 		    color:#fff;
 		    cursor:pointer;
-		    trainsition:background-position .3s;
+		    transition:background-position .3s;
 		}
 
 		#main {	
@@ -381,7 +390,6 @@ a:hover { color: black; }
 		grid-column: 1 / 13;
 		grid-row: 17 / 21;
 		background-color: teal;
-		z-index: 2;
 	}
 
 	.grid_footer {

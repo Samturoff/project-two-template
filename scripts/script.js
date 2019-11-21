@@ -40,6 +40,7 @@ var main = document.getElementById("main");
 var menu = document.getElementsByClassName("menuitems");
 var close = document.getElementById("closebtn");
 var hamburger_background = document.getElementById("hamburger_background_id");
+var hideElem = document.getElementById("hide");
 
 
 //default to measure if/else from
@@ -62,10 +63,12 @@ function navToggle() {
   
       var i = 0;
       for (i = 0; i < menu.length; i++){
+  menu[i].style.transition="opacity 10s";      
   menu[i].style.opacity="0.0";
   menu[i].style.marginTop="100px";
   };
       hamburger_background.style.backgroundColor = "rgba(0,0,0,0)";
+      hideElem.style.display = 'none';
 
   } 
   //to open
@@ -78,6 +81,8 @@ function navToggle() {
   menu[i].style.marginTop="0px";
   };
       hamburger_background.style.backgroundColor = "rgba(133,51,45,0.85)";
+      hideElem.style.display = '';
+
   }
 
 };
