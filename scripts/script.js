@@ -34,6 +34,7 @@ function moveBtn() {
 
 });
 
+
 /* HAMBURGER NAVIGATOR */
 var nav = document.getElementById("topNav");
 var main = document.getElementById("main");
@@ -69,6 +70,8 @@ function navToggle() {
   };
       hamburger_background.style.backgroundColor = "rgba(0,0,0,0)";
       hideElem.style.display = 'none';
+      hamburger_background.style.zIndex = "-10";
+
 
   } 
   //to open
@@ -80,9 +83,16 @@ function navToggle() {
   menu[i].style.opacity="1.0";
   menu[i].style.marginTop="0px";
   };
-      hamburger_background.style.backgroundColor = "rgba(133,51,45,0.85)";
+      hamburger_background.style.backgroundColor = "rgba(133,51,45,0.95)";
       hideElem.style.display = '';
-
+      hamburger_background.style.zIndex = "10";
   }
 
 };
+
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
