@@ -833,6 +833,25 @@ section::after {
 		background-color: teal;
 	}
 
+	.menu_link_container{
+		padding-top: 100px;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+		position: relative;
+
+	}
+
+	.breakfast_menu_link{
+		padding-right: 7px;
+		color: black;
+		position: relative;		
+	}
+	
+	.inline_food{
+		display: inline-block;
+		position: relative;
+	}
 	.item_6_food {
 		grid-column: 1 / 13;
 		grid-row: 6 / 21;
@@ -1382,10 +1401,11 @@ section::after {
 		background-color: teal;
 	}
 
+
 	.item_6_food {
 		grid-column: 1 / 13;
 		grid-row: 10 / 21;
-		background-color: green;
+		background-color: purple;
 	}
 
 	.grid_footer_food {
