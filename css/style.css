@@ -17,7 +17,7 @@ a {
 	text-decoration: none;
 	 }
 
-a:hover { color: black; }
+a:hover { color: #B17A7A; }
 
 
 @media only screen and (min-width: 300px){
@@ -101,7 +101,7 @@ a:hover { color: black; }
 	.item_1 {
 		grid-column: 1 / 2;
 		grid-row: 1 / 2;
-		height: 60px;
+		height: 100%;
 		background-color: blue;
 		z-index: 2;				
 	}
@@ -112,10 +112,10 @@ a:hover { color: black; }
 		grid-row: 1 / 2;
 		height: 60px;
 		z-index: 10;
-		background-color: red;		
 	}
 
 		.homepage_hamburger_transition_color{
+			padding-top: 15px;
 		    transition: background-color .5s;
 		}
 
@@ -151,14 +151,15 @@ a:hover { color: black; }
 			position: absolute;
 			margin-left: auto;
 			margin-right: auto;
-			left: 0;
+			left: 0; 
 			right: 0;			
 		}
 		.menulist {
-			padding-top: 20px;
+			padding-top: 40px;
 			text-align:center;
 			width: 100%;
 			height: 600px;
+
 		}
 
 		.logo {
@@ -169,28 +170,40 @@ a:hover { color: black; }
 		.line1, .line2, .line3 {
 		  margin-top:5px;
 		  background-color: black;
-		  width:25px;
-		  height:3px;
+		  width:32px;
+		  height:5px;
 		  display:block;
 		  position:relative;
 		  opacity:1.0;
 		  border-radius:15%;
-		  transition: all .3s;
 		}
 
-		.line1.active {
+		#line_one_id{
+			transition: all .3s;
+		}
+
+		#line_two_id{
+			transition: all .3s;
+		}
+
+		#line_three_id{
+			transition: all .3s;
+		}
+
+
+		.line1_active {
 		  transform: rotate(270deg);
 		  opacity:0.0;
 		  background-color: #E8DCDC;
 		  top:5px;
 		}
 
-		.line2.active {
+		.line2_active {
 		  transform: rotate(45deg);
 		  background-color: #E8DCDC;
 		}
 
-		.line3.active {
+		.line3_active {
 		  transform: rotate(-45deg);
 		  background-color: #E8DCDC;
 		  top:-7px;
@@ -209,15 +222,22 @@ a:hover { color: black; }
 		    color: #E8DCDC;
 		    opacity:0.0;
 		    transition: all .5s ease-in-out;
-
 		}
+
+		.visibility_hidden{
+			visibility: hidden;
+		}
+
+		.visibility_show{
+			visibility: visible;
+		}		
 
 		.menuitems:after {
 		  content:'';
 		  display:block;
 		  width: 0;
 		  height: 1px;
-		  background: #fff;
+		  background: #E8DCDC;
 		  transition: width .2s;
 		}
 
@@ -279,11 +299,8 @@ a:hover { color: black; }
 
 section {
   position: relative;
-
   width: 100%;
   height: 100%;
-  background-color: red;
-
 }
 section::after {
   position: absolute;
@@ -297,16 +314,14 @@ section::after {
 }
 
 .section04_container{
-		bottom: 0;
-		margin-top: 80px;
+	bottom: 0;
+	margin-top: 80px;
 }
 
 .demo a {
   display: flex;
   align-items: center; 
-  justify-content: center;
-  background-color: blue;
-   
+  justify-content: center;   
   z-index: 2;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -326,12 +341,12 @@ section::after {
 #section04 a span {
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 24px;
-  height: 24px;
+  left: 47%;
+  width: 44px;
+  height: 44px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
@@ -733,23 +748,37 @@ section::after {
 		color: #E8DCDC;				
 	}
 
+	.footer_links_single a:hover{
+		color: #CFAFAF;				
+	}	
+
 	.footer_links_single{
 		color: #E8DCDC;		
 	}
+
 
 /* ----------Subpage_Food---------- */
 	main {
 		background-color:red;
 	}
 
-	.grid_banner_food {
+	.hamburger_background_food{
+		transition: background-color .5s;
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		z-index: -10;
+	}
+
+	.grid_banner_food{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 100%;
-		height: 7vh;
+		height:10vh;
 		width: 100%;
 		margin: auto;
 	}
+
 
 	.image_one_food {
 		object-fit: cover;
@@ -764,14 +793,17 @@ section::after {
 	.item_1_food {
 		grid-column: 1 / 2;
 		grid-row: 1 / 2;
-		background-color: gray;
+		height: 100%;
+		background-color: blue;
+		z-index: 2;		
 	}
 
 	.item_2_food {
 		min-width: 50px;
 		grid-column: 3 / 4;
 		grid-row: 1 / 2;
-		background-color: gray;
+		height: 60px;
+		z-index: 10;
 	}
 
 	.item_3_food {
