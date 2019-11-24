@@ -871,6 +871,16 @@ section::after {
 		
 	}
 
+	.menu_lunch_container {
+		position: relative;
+		display:none;
+	}
+
+	.menu_dinner_container {
+		position: relative;
+		display:none;
+	}
+
 	.menu_breakfast {
 		position: relative;
 		height:auto;
