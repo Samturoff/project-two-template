@@ -881,6 +881,11 @@ section::after {
 		display:none;
 	}
 
+	.menu_dessert_container {
+		position: relative;
+		display:none;
+	}
+
 	.menu_breakfast {
 		position: relative;
 		height:auto;
