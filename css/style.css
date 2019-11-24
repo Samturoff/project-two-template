@@ -23,7 +23,6 @@ a:hover { color: #B17A7A; }
 @media only screen and (min-width: 300px){
 
 	main {
-		background-color:red;
 	}
 
 	h1{
@@ -44,7 +43,9 @@ a:hover { color: #B17A7A; }
 
 	h4 {
 		font-family: Brandon Grotesque, sans-serif;
-		font-size: 14pt;
+		font-size: 12pt;
+		letter-spacing: 1pt;				
+
 	}
 
 	h5{
@@ -56,12 +57,19 @@ a:hover { color: #B17A7A; }
 
 	h6{
 		font-family: Brandon Grotesque, sans-serif;
-		font-size: 18pt;		
+		font-size: 18pt;
+		letter-spacing: 2pt;				
 	}
+
+	h6{
+		font-family: Brandon Grotesque, sans-serif;
+		font-size: 14pt;		
+	}
+
 	p {
 		font-family: Metallophile Sp8, sans-serif;
 		font-size: 14pt;
-		line-height: 22px
+		line-height: 22px		
 	}
 
 	.container{
@@ -464,7 +472,7 @@ section::after {
 	}
 
 	.menu_links{
-		padding-top: 10px;
+		padding-top: 20px;
 		text-align: center;
 	}
 
@@ -488,7 +496,7 @@ section::after {
 	}
 
 	.drink_links{
-		padding-top: 10px;
+		padding-top: 20px;
 		text-align: center;
 	}
 
@@ -759,7 +767,6 @@ section::after {
 
 /* ----------Subpage_Food---------- */
 	main {
-		background-color:red;
 	}
 
 	.hamburger_background_food{
@@ -816,7 +823,7 @@ section::after {
 	.grid_food {
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(20, 100px);
+		grid-template-rows: repeat(5, 100px);
 		width: 100%;
 		margin: auto;
 	}
@@ -830,11 +837,11 @@ section::after {
 	.item_5_food {
 		grid-column: 1 / 13;
 		grid-row: 4 / 6;
-		background-color: teal;
+		background-color: #E8DCDC;
 	}
 
 	.menu_link_container{
-		padding-top: 100px;
+		padding-top: 115px;
 		margin: auto;
 		width: 100%;
 		text-align: center;
@@ -852,10 +859,45 @@ section::after {
 		display: inline-block;
 		position: relative;
 	}
+
 	.item_6_food {
-		grid-column: 1 / 13;
-		grid-row: 6 / 21;
-		background-color: green;
+		width: 100%;
+		height: 5000px;
+		background-color: #E8DCDC;
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+		
+	}
+
+	.menu_line_container{
+		padding-top: 60px;
+	}
+
+	.menu_line{
+		height: 2px;
+		width: 85%;
+		margin: auto;
+		background-color: black;
+	}
+
+	.menu_line_two{
+		height: 2px;
+		width: 100%;
+		margin: auto;
+		background-color: black;
+	}
+
+	.food_text_center{
+		text-align: center;
+	}
+
+	.food_text_red{
+		color:#85332D;
+	}
+
+
+	.food_text_padding{
+		padding-top: 30px;
 	}
 
 	.grid_footer_food {
@@ -874,7 +916,6 @@ section::after {
 
 /* ----------Subpage_Drinks---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_drinks {
@@ -958,7 +999,6 @@ section::after {
 
 /* ----------Subpage_Our_Story---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_our_story {
@@ -1060,7 +1100,6 @@ section::after {
 
 /* ----------Subpage_Gallery---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_gallery {
@@ -1217,7 +1256,6 @@ section::after {
 
 @media only screen and (min-width: 1224px) {
 	main {
-		background-color:red;
 	}
 
 	.grid_banner {
@@ -1330,7 +1368,6 @@ section::after {
 	}		
 /* ----------Subpage_Food---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_food {
@@ -1424,7 +1461,6 @@ section::after {
 
 /* ----------Subpage_Drinks---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_drinks {
@@ -1516,7 +1552,6 @@ section::after {
 
 /* ----------Subpage_Our_Story---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_our_story {
@@ -1623,7 +1658,6 @@ section::after {
 
 /* ----------Subpage_Gallery---------- */
 	main {
-		background-color:red;
 	}
 
 	.grid_banner_gallery {
