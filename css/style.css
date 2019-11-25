@@ -26,14 +26,14 @@ a:hover { color: #B17A7A; }
 	}
 
 	h1{
-		font-family: Paralucent, sans-serif;
+		font-family:"paralucent-condensed";
 		font-size: 24pt;
 		letter-spacing: .7px;
 		line-height: 35px;
 	}
 
 	h2 {
-		font-family: Metallophile Sp8, sans-serif;
+		font-family: "Metallophile-Sp8", sans-serif;
 		font-size: 18pt;
 	}
 
@@ -42,33 +42,33 @@ a:hover { color: #B17A7A; }
 	}
 
 	h4 {
-		font-family: Brandon Grotesque, sans-serif;
+		font-family: "Brandon-Grotesque", sans-serif;
 		font-size: 12pt;
 		letter-spacing: 1pt;				
 
 	}
 
 	h5{
-		font-family: Paralucent, sans-serif;
+		font-family: "paralucent-condensed", sans-serif;
 		font-size: 14pt;
 		letter-spacing: .7px;
 		line-height: 35px;
 	}
 
 	h6{
-		font-family: Brandon Grotesque, sans-serif;
+		font-family: "Brandon-Grotesque", sans-serif;
 		font-size: 18pt;
 		letter-spacing: 2pt;				
 	}
 
 	h6{
-		font-family: Brandon Grotesque, sans-serif;
+		font-family: "Brandon-Grotesque", sans-serif;
 		font-size: 14pt;		
 	}
 
 	p {
-		font-family: Metallophile Sp8, sans-serif;
-		font-size: 14pt;
+		font-family: "Metallophile-Sp8", sans-serif;
+		font-size: 16pt;
 		line-height: 22px		
 	}
 
@@ -222,7 +222,7 @@ a:hover { color: #B17A7A; }
 		    padding-bottom: 12px;
 		    text-decoration: none;
 		    list-style:none; 
-		    font-family: Paralucent, sans-serif;
+		    font-family: "paralucent-condensed", sans-serif;
 		    font-size: 20pt;
 		    letter-spacing: .7px;
 		    display: inline-block;
@@ -883,7 +883,6 @@ section::after {
 
 	.menu_dessert_container {
 		position: relative;
-		display:none;
 	}
 
 	.menu_breakfast {
