@@ -855,7 +855,7 @@ section::after {
 	}
 	
 	.inline_food{
-		display: inline-block;
+		display: inline;
 		position: relative;
 	}
 
@@ -884,6 +884,16 @@ section::after {
 	.menu_dessert_container {
 		position: relative;
 	}
+
+	.dessert_grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 40px;
+		max-width: 1000px;
+		margin: auto;
+	}
+
+
 
 	.menu_breakfast {
 		position: relative;
