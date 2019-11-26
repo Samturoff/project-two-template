@@ -900,6 +900,30 @@ section::after {
 
 	}
 
+	.breakfast_grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 40px;
+		max-width: 900px;
+		margin: auto;
+	}
+
+	.brunch_grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 40px;
+		max-width: 900px;
+		margin: auto;
+	}
+
+	.lunch_grid{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 40px;
+		max-width: 900px;
+		margin: auto;
+	}
+
 	.dinner_grid{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
