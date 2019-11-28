@@ -880,7 +880,9 @@ section::after {
 	}
 
 	.menu_brunch_container {
-		position: relative;		
+		position: relative;	
+		display: none;
+	
 	}
 
 	.menu_lunch_container {
@@ -891,7 +893,6 @@ section::after {
 
 	.menu_dinner_container {
 		position: relative;
-		display: none;
 	}
 
 	.menu_dessert_container {
