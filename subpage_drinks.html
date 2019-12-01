@@ -61,20 +61,25 @@
 				</div>
 				<div class="item_5_food">
 					<div class="menu_link_container">
-						<div style="display:inline-block;">
-							<h4><a class="breakfast_menu_link" href="#"> BREAKFAST </a></h4>
+						<div style="display:inline-block; position: relative">
+								<h4><a id="breakfast_page" class="breakfast_menu_link effect-underline" onclick="breakfastToggle()"> HAPPY HOUR</a></h4>
+								<div class="breakfast_menu_line"></div>
 						</div>
-						<div style="display:inline-block;">					
-							<h4><a class="breakfast_menu_link" href="#"> BRUNCH </a></h4>	
+						<div style="display:inline-block; position: relative">
+							<h4><a id="brunch_page" class="brunch_menu_link effect-underline" onclick="brunchToggle()"> BAR MENU </a></h4>
+							<div class="brunch_menu_line"></div>							
 						</div>
-						<div style="display:inline-block;">									
-							<h4><a class="breakfast_menu_link" href="#"> LUNCH </a></h4>
+						<div style="display:inline-block; position: relative">
+							<h4><a id="lunch_page" class="lunch_menu_link effect-underline" onclick="lunchToggle()"> WINE LIST </a></h4>
+							<div class="lunch_menu_line"></div>							
 						</div>
-						<div style="display:inline-block;">					
-							<h4><a class="breakfast_menu_link" href="#"> DINNER </a></h4>
+						<div style="display:inline-block; position: relative">
+							<h4><a id="dinner_page" class="dinner_menu_link effect-underline" onclick="dinnerToggle()"> SPIRITS </a></h4>
+							<div class="dinner_menu_line"></div>
 						</div>
-						<div style="display:inline-block;">					
-							<h4><a class="breakfast_menu_link" href="#"> DESSERT </a></h4>	
+						<div style="display:inline-block; position: relative">
+							<h4><a id="dessert_page" class="dessert_menu_link effect-underline" onclick="dessertToggle()"> DESSERT </a></h4>
+							<div class="dessert_menu_line"></div>								
 						</div>
 					</div>
 					<div class="menu_line_container">					
@@ -89,64 +94,112 @@
 			<div class="menu_breakfast_container">
 				<div class="menu_breakfast">
 					<div class="breakfast_grid">
-						<h6 class="food_text_center" style="padding-top: 35px;">EGGS</h6>
+						<h6 class="food_text_center" style="padding-top: 35px;">FOOD</h6>
+						<p class="food_text_center" style="margin-top: -30px;">2pm - 6pm</p>
 
 						<div class="menu_grid_left">
 							<div class="inline_food">											
-								<h2 class="food_text_red food_text_padding inline_food">Two Eggs Your Way</h2>															
-								<p class="menu_text inline_food">15</p>
+								<h2 class="food_text_red food_text_padding inline_food">Market Soup</h2>															
+								<p class="menu_text inline_food">6</p>
 							</div>					
-							<p class="menu_text" style="padding-top: 4px;">Choice of applewood smoked bacon, pork apple sausage or country ham, potatoes, toast</p>
+							<p class="menu_text" style="padding-top: 4px;">Chef’s whim of market gathering</p>
 
 
 							<div class="menu_padding_top">
 								<div class="inline_food">											
-									<h2 class="food_text_red food_text_padding inline_food">Classic Benedict</h2>															
-									<p class="menu_text inline_food">16</p>
+									<h2 class="food_text_red food_text_padding inline_food">Lime Chicharonnes</h2>															
+									<p class="menu_text inline_food">4</p>
 								</div>					
-								<p class="menu_text" style="padding-top: 4px;">Two soft poached eggs, smoked pork loin, english muffin, hollandaise, potatoes</p>
-								<div>
-									<div class="inline_food">																	
-										<p class="menu_text" style="padding-top: 4px; color:#85332D;">Sub</p>										
-										<p class="menu_text" style="padding-top: 4px;">Dungeness Crab 10</p>
-									</div>				
-								</div>
+								<p class="menu_text" style="padding-top: 4px;">Chili oil</p>
 							</div>
 
 
 							<div class="menu_padding_top">
 								<div class="inline_food">											
-									<h2 class="food_text_red food_text_padding inline_food">Smoked Brisket Hash</h2>															
-									<p class="menu_text inline_food">16</p>
+									<h2 class="food_text_red food_text_padding inline_food">Caesar</h2>															
+									<p class="menu_text inline_food">6</p>
 								</div>					
-								<p class="menu_text" style="padding-top: 4px;">Sweet potatoes, charred peppers, Onions, braised greens, sunny up eggs, toast</p>
+								<p class="menu_text" style="padding-top: 4px;">Parmesan and anchovy dressing, focaccia croutons</p>
 							</div>
+
+						<div class="menu_padding_top">
+								<div class="inline_food">											
+									<h2 class="food_text_red food_text_padding inline_food">Arugula & Treviso Salad</h2>															
+									<p class="menu_text inline_food">8</p>
+								</div>					
+								<p class="menu_text" style="padding-top: 4px;">Blue cheese, sherry vinaigrette, candied pecans</p>
+							</div>
+
+
+						<div class="menu_padding_top">
+								<div class="inline_food">											
+									<h2 class="food_text_red food_text_padding inline_food">Caramel Apple Cheesecake</h2>															
+									<p class="menu_text inline_food">5</p>
+								</div>					
+								<p class="menu_text" style="padding-top: 4px;">Cinnamon struesal, pomegranite reduction</p>
+							</div>
+
+
+							<div class="menu_padding_top">
+								<div class="inline_food">											
+									<h2 class="food_text_red food_text_padding inline_food">Fried Chicken Bites</h2>															
+									<p class="menu_text inline_food">8</p>
+								</div>					
+								<p class="menu_text" style="padding-top: 4px;">Honey pear mustard</p>
+							</div>
+							
+
+						<div class="menu_padding_top">
+								<div class="inline_food">											
+									<h2 class="food_text_red food_text_padding inline_food">Smoked Sweet and Spicy Wings</h2>															
+									<p class="menu_text inline_food">6</p>
+								</div>					
+								<p class="menu_text" style="padding-top: 4px;">Sriracha and honey glaze</p>
+							</div>													
 						</div>
 
 
 							<div class="menu_grid_right">
 									<div class="inline_food">											
-										<h2 class="food_text_red food_text_padding inline_food">Buttermilk Biscuits & Gravy</h2>
-										<p class="menu_text inline_food">14</p>
+										<h2 class="food_text_red food_text_padding inline_food">Pinwheel Friess </h2>
+										<p class="menu_text inline_food">5</p>
 									</div>					
-								<p class="menu_text" style="padding-top: 4px;">Pork sausage gravy, poached eggs, potatoes</p>
+								<p class="menu_text" style="padding-top: 4px;">Steiny’s sauce</p>
 
 
 							<div class="menu_padding_top">
 								<div class="inline_food">											
-									<h2 class="food_text_red food_text_padding inline_food">Smoked Ham Omelet</h2>															
+									<h2 class="food_text_red food_text_padding inline_food">Grilled Bread</h2>															
 									<p class="menu_text inline_food">16</p>
 								</div>					
-								<p class="menu_text" style="padding-top: 4px;">Three eggs, charred peppers, cheddar, Potatoes, toast</p>
+								<p class="menu_text" style="padding-top: 4px;">Fresh goat cheese, quince and fig jam, walnuts</p>
 							</div>
 
 							<div class="menu_padding_top">
 								<div class="inline_food">											
-									<h2 class="food_text_red food_text_padding inline_food">Autumn Mushroom Omelet</h2>															
+									<h2 class="food_text_red food_text_padding inline_food">Shawarma</h2>															
 									<p class="menu_text inline_food">15</p>
 								</div>					
-								<p class="menu_text" style="padding-top: 4px;">Three eggs, mushrooms, broccoli, swiss, Potatoes, toast</p>
+								<p class="menu_text" style="padding-top: 4px;">Hummus, spiced carrots, arugula, onion, herb dressing, feta</p>
 							</div>
+
+
+							<div class="menu_padding_top">
+								<div class="inline_food">											
+									<h2 class="food_text_red food_text_padding inline_food">Steak* and Crazy Fries</h2>															
+									<p class="menu_text inline_food">18</p>
+								</div>					
+								<p class="menu_text" style="padding-top: 4px;">Tavern steak, cheddar cheese sauce, bacon and green onion</p>
+							</div>
+
+
+							<div class="menu_padding_top">
+								<div class="inline_food">											
+									<h2 class="food_text_red food_text_padding inline_food">Red Star Burger</h2>															
+									<p class="menu_text inline_food">8</p>
+								</div>					
+								<p class="menu_text" style="padding-top: 4px;">1/3 lb patty, oregon cheddar, tomato, chop lettuce, Steiny’s sauce, potato bun and pickles</p>
+							</div>														
 						</div>
 
 
@@ -155,26 +208,7 @@
 							</div>	
 						</div>	
 
-						<h6 class="food_text_center" style="padding-top: 35px;">SWEET & SAVORY​</h6>
-						
-
-						<div class="menu_grid_left">
-							<div class="inline_food">											
-								<h2 class="food_text_red food_text_padding inline_food">Waffle </h2>															
-								<p class="menu_text inline_food">14</p>
-							</div>					
-							<p class="menu_text" style="padding-top: 4px;">Bourbon apples, chantilly cream, Glazed pecans, maple syrup</p>								
-							<p class="menu_text" style="padding-top: 4px; color:#85332D;">Add</p>
-							<p class="menu_text" style="padding-top: 4px;">Huckleberry Compote 2</p>
-						</div>
-
-
-						<div class="menu_line_container">					
-							<div class="menu_line_two">
-							</div>	
-						</div>	
-
-						<h6 class="food_text_center" style="padding-top: 35px;">LIGHT AND EASY​</h6>
+						<h6 class="food_text_center" style="padding-top: 35px;">DRINKS</h6>
 							
 
 						<div class="menu_grid_left">

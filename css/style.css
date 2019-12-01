@@ -846,19 +846,106 @@ section::after {
 		width: 100%;
 		text-align: center;
 		position: relative;
+		z-index: 11;
+	}
+
+	/*effect-underline*/
+	a.effect-underline:after {
+		content: '';
+		position: absolute;
+		left: 0;
+		display: inline-block;
+		height: 1em;
+		width: 90%;
+		border-bottom: 2px solid;
+		margin-top: 10px;
+		opacity: 0;
+		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+		transition: opacity 0.35s, transform 0.35s;
+		-webkit-transform: scale(0,1);
+		transform: scale(0,1);
+	}
+
+	a.effect-underline:hover:after {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
 
 	.breakfast_menu_link{
 		padding-right: 7px;
-		color: black;
 		position: relative;	
-		display: inline-block;	
+		cursor: pointer;
+		-webkit-transition: all .5s ease;  
+		-moz-transition: all .5s ease;  
+		-o-transition: all .5s ease;  
+		-ms-transition: all .5s ease;  
+		transition: all .5s ease;
+  	}
+
+	.brunch_menu_link{
+		padding-right: 7px;
+		position: relative;	
+		cursor: pointer;
+		-webkit-transition: all .5s ease;  
+		-moz-transition: all .5s ease;  
+		-o-transition: all .5s ease;  
+		-ms-transition: all .5s ease;  
+		transition: all .5s ease;
+  	}
+
+	.lunch_menu_link{
+		padding-right: 7px;
+		position: relative;	
+		cursor: pointer;
+		-webkit-transition: all .5s ease;  
+		-moz-transition: all .5s ease;  
+		-o-transition: all .5s ease;  
+		-ms-transition: all .5s ease;  
+		transition: all .5s ease;
+  	}
+
+	.dinner_menu_link{
+		padding-right: 7px;
+		position: relative;	
+		cursor: pointer;
+		-webkit-transition: all .5s ease;  
+		-moz-transition: all .5s ease;  
+		-o-transition: all .5s ease;  
+		-ms-transition: all .5s ease;  
+		transition: all .5s ease;
+  	}
+
+	.dessert_menu_link{
+		padding-right: 7px;
+		position: relative;	
+		cursor: pointer;
+		-webkit-transition: all .5s ease;  
+		-moz-transition: all .5s ease;  
+		-o-transition: all .5s ease;  
+		-ms-transition: all .5s ease;  
+		transition: all .5s ease;
+  	}
+
+	.breakfast_menu_line{
+
 	}
 
-	.breakfast_menu_active{
-		display: block;
+	.menu_link_active{
+  		margin-top: 10.9px;
+		position: absolute;
+		height: 2em;
+		width: 90%;
+		border-top: 2px solid;
+		opacity: 1;
+		color: #85332D;
 	}
-	
+
+	.menu_link_inactive{
+		opacity:0;
+		transition: all .5s ease;
+	}
+
 	.menu_grid_left{
 		grid-column: 1 / 2;
 		padding-top: 35px;
