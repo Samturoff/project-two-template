@@ -921,7 +921,6 @@ section::after {
 	.item_4_food {
 		grid-column: 1 / 13;
 		grid-row: 1 / 4;
-		background-color: purple;
 	}
 
 	.item_5_food {
@@ -1232,13 +1231,11 @@ section::after {
 	.item_4_drinks {
 		grid-column: 1 / 13;
 		grid-row: 1 / 4;
-		background-color: purple;
 	}
 
 	.item_5_drinks {
 		grid-column: 1 / 13;
 		grid-row: 4 / 6;
-		background-color: teal;
 	}
 
 	.item_6_drinks {
@@ -1258,7 +1255,6 @@ section::after {
 	.item_7_drinks {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: teal;
 	}		
 
 /* ----------Subpage_Our_Story---------- */
@@ -1315,37 +1311,31 @@ section::after {
 	.item_4_our_story {
 		grid-column: 1 / 13;
 		grid-row: 1 / 6;
-		background-color: purple;
 	}
 
 	.item_5_our_story {
 		grid-column: 1 / 13;
 		grid-row: 6 / 9;
-		background-color: teal;
 	}
 
 	.item_6_our_story {
 		grid-column: 1 / 13;
 		grid-row: 9 / 12;
-		background-color: green;
 	}
 
 	.item_7_our_story {
 		grid-column: 1 / 13;
 		grid-row: 12 / 18;
-		background-color: purple;
 	}
 
 	.item_8_our_story {
 		grid-column: 1 / 13;
 		grid-row: 18 / 24;
-		background-color: teal;
 	}		
 
 	.item_9_our_story {
 		grid-column: 1 / 13;
 		grid-row: 24 / 28;
-		background-color: green;
 	}
 
 	.grid_footer_our_story {
@@ -1359,7 +1349,6 @@ section::after {
 	.item_10_our_story {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: purple;
 	}
 
 /* ----------Subpage_Gallery---------- */
@@ -1418,7 +1407,6 @@ section::after {
   		width: 100%;
     	grid-column: 1 / 13;
 		grid-row: 1 / 6;
-		background-color: green;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1426,7 +1414,6 @@ section::after {
 	.item_5_gallery {
 		grid-column: 1 / 7;
 		grid-row: 6 / 9;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1442,7 +1429,6 @@ section::after {
 	.item_7_gallery {
 		grid-column: 1 / 7;
 		grid-row: 9 / 12;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1450,7 +1436,6 @@ section::after {
 	.item_8_gallery {
 		grid-column: 7 / 13;
 		grid-row: 9 / 12;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1458,7 +1443,6 @@ section::after {
 	.item_9_gallery {
 		grid-column: 1 / 13;
 		grid-row: 12 / 17;
-		background-color: green;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1466,7 +1450,6 @@ section::after {
 	.item_10_gallery {
 		grid-column: 1 / 7;
 		grid-row: 17 / 20;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1474,7 +1457,6 @@ section::after {
 	.item_11_gallery {
 		grid-column: 7 / 13;
 		grid-row: 17 / 20;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -1482,7 +1464,6 @@ section::after {
 	.item_12_gallery {
 		grid-column: 1 / 7;
 		grid-row: 20 / 23;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1490,7 +1471,6 @@ section::after {
 	.item_13_gallery {
 		grid-column: 7 / 13;
 		grid-row: 20 / 23;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -1498,7 +1478,6 @@ section::after {
 	.item_14_gallery {
 		grid-column: 1 / 13;
 		grid-row: 23 / 29;
-		background-color: green;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1506,7 +1485,6 @@ section::after {
 	.item_15_gallery {
 		grid-column: 1 / 7;
 		grid-row: 29 / 32;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1514,7 +1492,6 @@ section::after {
 	.item_16_gallery {
 		grid-column: 7 / 13;
 		grid-row: 29 / 32;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -1522,7 +1499,6 @@ section::after {
 	.item_17_gallery {
 		grid-column: 1 / 7;
 		grid-row: 32 / 35;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -1530,7 +1506,6 @@ section::after {
 	.item_18_gallery {
 		grid-column: 7 / 13;
 		grid-row: 32 / 35;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}		
@@ -1546,7 +1521,6 @@ section::after {
 	.item_19_gallery {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: orange;
 	}				
 }
 
@@ -2253,7 +2227,6 @@ section::after {
 	.item_4_food {
 		grid-column: 1 / 13;
 		grid-row: 1 / 7;
-		background-color: purple;
 	}
 
 	.item_5_food {
@@ -2266,7 +2239,6 @@ section::after {
 	.item_6_food {
 		grid-column: 1 / 13;
 		grid-row: 10 / 21;
-		background-color: purple;
 	}
 
 	.grid_footer_food {
@@ -2280,7 +2252,6 @@ section::after {
 	.item_7_food {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: teal;
 	}	
 
 	.menu_grid_left{
@@ -2347,19 +2318,16 @@ section::after {
 	.item_4_drinks {
 		grid-column: 1 / 13;
 		grid-row: 1 / 7;
-		background-color: purple;
 	}
 
 	.item_5_drinks {
 		grid-column: 1 / 13;
 		grid-row: 7 / 10;
-		background-color: teal;
 	}
 
 	.item_6_drinks {
 		grid-column: 1 / 13;
 		grid-row: 10 / 21;
-		background-color: green;
 	}
 
 	.grid_footer_drinks {
@@ -2373,7 +2341,6 @@ section::after {
 	.item_7_drinks {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: teal;
 	}	
 
 	.menu_grid_left{
@@ -2441,26 +2408,22 @@ section::after {
 	.item_4_our_story {
 		grid-column: 1 / 13;
 		grid-row: 1 / 8;
-		background-color: purple;
 	}
 
 	.item_5_our_story {
 		grid-column: 1 / 7;
 		grid-row: 8 / 12;
-		background-color: teal;
 		z-index: 1;		
 	}
 
 	.item_6_our_story {
 		grid-column: 7 / 13;
 		grid-row: 8 / 12;
-		background-color: green;
 	}
 
 	.item_7_our_story {
 		grid-column: 4 / 10;
 		grid-row: 12 / 20;
-		background-color: purple;
 		z-index: 1;		
 
 	}
@@ -2468,13 +2431,11 @@ section::after {
 	.item_8_our_story {
 		grid-column: 4 / 10;
 		grid-row: 20 / 28;
-		background-color: teal;
 	}		
 
 	.item_9_our_story {
 		grid-column: 1 / 13;
 		grid-row: 28 / 34;
-		background-color: green;
 	}
 
 	.grid_footer_our_story {
@@ -2488,7 +2449,6 @@ section::after {
 	.item_10_our_story {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: purple;
 	}
 
 /* ----------Subpage_Gallery---------- */
@@ -2547,7 +2507,6 @@ section::after {
   		width: 100%;
     	grid-column: 1 / 9;
 		grid-row: 1 / 6;
-		background-color: green;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2555,7 +2514,6 @@ section::after {
 	.item_5_gallery {
 		grid-column: 1 / 4;
 		grid-row: 6 / 9;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2563,7 +2521,6 @@ section::after {
 	.item_6_gallery {
 		grid-column: 4 / 7;
 		grid-row: 6 / 9;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2571,7 +2528,6 @@ section::after {
 	.item_7_gallery {
 		grid-column: 7 / 10;
 		grid-row: 6 / 9;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2579,7 +2535,6 @@ section::after {
 	.item_8_gallery {
 		grid-column: 10 / 13;
 		grid-row: 6 / 9;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2587,7 +2542,6 @@ section::after {
 	.item_9_gallery {
 		grid-column: 9 / 13;
 		grid-row: 1 / 6;
-		background-color: green;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2595,7 +2549,6 @@ section::after {
 	.item_10_gallery {
 		grid-column: 1 / 10;
 		grid-row: 9 / 15;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2603,7 +2556,6 @@ section::after {
 	.item_11_gallery {
 		grid-column: 10 / 13;
 		grid-row: 9 / 15;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -2611,7 +2563,6 @@ section::after {
 	.item_12_gallery {
 		grid-column: 1 / 7;
 		grid-row: 15 / 23;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2619,7 +2570,6 @@ section::after {
 	.item_13_gallery {
 		grid-column: 7 / 13;
 		grid-row: 15 / 23;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -2627,7 +2577,6 @@ section::after {
 	.item_14_gallery {
 		grid-column: 1 / 13;
 		grid-row: 23 / 29;
-		background-color: green;
 	    position: relative;
 	    overflow: hidden;
 	    display:none;		
@@ -2636,7 +2585,6 @@ section::after {
 	.item_15_gallery {
 		grid-column: 1 / 5;
 		grid-row: 23 / 28;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2644,7 +2592,6 @@ section::after {
 	.item_16_gallery {
 		grid-column: 5 / 9;
 		grid-row: 23 / 28;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -2652,7 +2599,6 @@ section::after {
 	.item_17_gallery {
 		grid-column: 9 / 13;
 		grid-row: 23 / 28;
-		background-color: purple;
 	    position: relative;
 	    overflow: hidden;		
 	}
@@ -2660,7 +2606,6 @@ section::after {
 	.item_18_gallery {
 		grid-column: 1 / 13;
 		grid-row: 28 / 35;
-		background-color: blue;
 	    position: relative;
 	    overflow: hidden;		
 	}	
@@ -2676,7 +2621,6 @@ section::after {
 	.item_19_gallery {
 		grid-column: 1 / 13;
 		grid-row: 1 / 5;
-		background-color: aqua;
 	}				
 }
 
