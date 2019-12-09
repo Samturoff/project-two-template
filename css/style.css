@@ -542,7 +542,11 @@ section::after {
 	}
 
 	.menu_links a{
-		color: #E8DCDC;				
+		color: #E8DCDC;						
+	}
+
+	.menu_links a:hover{
+		color: #CFAFAF;				
 	}
 
 	.item_8 {	
@@ -564,8 +568,13 @@ section::after {
 	}
 
 	.drink_links a{
-		color: #E8DCDC;				
+		color: #E8DCDC;						
 	}
+
+	.drink_links a:hover{
+		color: #CFAFAF;				
+	}
+
 	.item_9 {
 		padding-top: 6em;
 		grid-column: 1 / 13;
